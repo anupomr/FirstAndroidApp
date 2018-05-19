@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:background="@color/colorPrimaryDark"
+    android:paddingTop="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_first_activity"
+        android:textSize="25dp"
+        android:textColor="@color/btnColor"
+         />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18dp"
+        android:textColor="@color/txtColor"/>
+    <EditText
+        android:id="@+id/edtNames"
+        android:textSize="18dp"
+        android:textColor="@color/txtColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="18dp"
+            android:textColor="@color/txtColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="StudentID"/>
+        <EditText
+
+            android:id="@+id/edtID"
+            android:textSize="18dp"
+            android:textColor="@color/txtColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Student Number"/>
+    </LinearLayout>
+    <Button
+
+        android:id="@+id/button"
+        android:textColor="@color/txtColor"
+        android:background="@color/btnColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Anu"
+        android:onClick="next_activity"/>
+
+</LinearLayout>

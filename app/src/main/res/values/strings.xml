@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Practice Application</string>
+    <string name="this_is_first_activity">This is first activity</string>
+    <string name="Anu">Go to second activity</string>
+    <string name="message">This is new form</string>
+
+</resources>
